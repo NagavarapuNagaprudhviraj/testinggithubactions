@@ -20,6 +20,6 @@ def azuregitcicdactions(req: func.HttpRequest) -> func.HttpResponse:
         return func.HttpResponse(f"Hello, {name}. This HTTP triggered function executed successfully.")
     else:
         return func.HttpResponse(
-             "This is good day",
+             "This is good day push the git cicd pipeline",
              status_code=200
         )
